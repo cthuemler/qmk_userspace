@@ -262,3 +262,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //     ),
 //
 };
+
+void keyboard_post_init_user(void) {
+    // Set RGB to white
+    rgblight_enable();
+    rgblight_sethsv(0, 0, 128);
+    rgblight_mode(0);
+  }
