@@ -58,7 +58,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      KC_TAB  , KC_Q ,  KC_W   ,  KC_E  ,   KC_R ,   KC_T ,                                        KC_Y,   KC_U ,  KC_I ,   KC_O ,  KC_P , DE_UDIA,
      KC_LSFT , KC_A ,  KC_S   ,  KC_D  ,   KC_F ,   KC_G ,                                        KC_H,   KC_J ,  KC_K ,   KC_L ,DE_ODIA, DE_ADIA,
      KC_LCTL , KC_Z ,  KC_X   ,  KC_C  ,   KC_V ,   KC_B , KC_LBRC,KC_CAPS,     FKEYS  , KC_RBRC, KC_N,   KC_M ,KC_COMMA, KC_DOT ,KC_SLASH, KC_RSFT,
-                                KC_LALT , KC_LGUI,  MO(1), KC_SPC , NAV   ,     SYM    , KC_ENTER,MO(2),  KC_BSPC, KC_RGUI
+                                KC_LALT , KC_LGUI,  MO(1), KC_SPC , NAV   ,     SYM    , KC_ENTER,MO(2),  KC_BSPC, KC_RGUI,
+     KC_MUTE, KC_NO,  KC_NO, KC_NO, KC_NO,                                                                KC_MUTE, KC_NO, KC_NO, KC_NO, KC_NO
     ),
 
 /*
@@ -82,7 +83,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      _______ ,XXXXXXX, KC_UP  ,  XXXXXXX, DE_PIPE,  DE_DLR,                                       DE_LPRN, DE_RPRN, DE_LABK, DE_RABK, DE_ASTR, DE_DQUO,
      _______ , KC_LEFT,KC_DOWN,KC_RIGHT, DE_HASH, DE_PERC,                                        DE_LCBR, DE_RCBR, DE_EQL, DE_QUOT, DE_SLSH, DE_BSLS,
      _______ ,XXXXXXX,DE_DACUT,DE_ACUT , DE_AMPR,   DE_AT, _______,_______,     _______, _______, DE_LBRC, DE_RBRC, DE_PLUS, DE_MINS, DE_ASTR, XXXXXXX,
-                                 _______, _______, _______, _______,_______,    _______, _______,MO(3) , _______, _______
+                                 _______, _______, _______, _______,_______,    _______, _______,MO(3) , _______, _______,
+     KC_MUTE, KC_NO,  KC_NO, KC_NO, KC_NO,                                                                KC_MUTE, KC_NO, KC_NO, KC_NO, KC_NO
     ),
 
 /*
@@ -106,7 +108,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, _______, _______, _______, _______,                                     _______, _______, _______, _______, _______, _______,
         _______, _______, _______, _______, _______, _______,                                     KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, _______, _______,
         _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
-                                _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
+                                _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+        KC_MUTE, KC_NO,  KC_NO, KC_NO, KC_NO,                                                                KC_MUTE, KC_NO, KC_NO, KC_NO, KC_NO
     ),
 
 /*
@@ -130,7 +133,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       _______, _______, _______, _______, _______, _______,                                     KC_PGUP, KC_HOME, KC_UP,   KC_END,  KC_VOLU, KC_DEL,
       _______, KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, _______,                                     KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, KC_VOLD, KC_INS,
       _______, _______, _______, _______, _______, _______, _______, KC_SCRL, _______, _______,KC_PAUSE, KC_MPRV, KC_MPLY, KC_MNXT, KC_MUTE, KC_PSCR,
-                                 _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
+                                 _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+      KC_MUTE, KC_NO,  KC_NO, KC_NO, KC_NO,                                                                KC_MUTE, KC_NO, KC_NO, KC_NO, KC_NO
     ),
 
 // /*
@@ -154,7 +158,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //       _______, _______, _______, _______, _______, _______,                                     _______, _______, _______, _______, _______, _______,
 //       _______, _______, _______, _______, _______, _______,                                     _______, _______, _______, _______, _______, _______,
 //       _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
-//                                  _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
+//                                  _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+//       KC_MUTE, KC_NO,  KC_NO, KC_NO, KC_NO,                                                                KC_MUTE, KC_NO, KC_NO, KC_NO, KC_NO
 //     ),
 //
 };
